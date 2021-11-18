@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'iranyekan';
+    src: url("../fonts/iranyekan.woff");
+}
+
+
+body{
+    font-family: 'iranyekan';
+    direction: rtl;
+    text-align: right;
+}
+table{
+    width: 100%;
+}
+
+table,th,td{
+    border: 1px solid;
+}
+th,td{
+    padding: 6px;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+

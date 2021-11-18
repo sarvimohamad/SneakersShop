@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'iranyekan';
+    src: url("../fonts/iranyekan.woff");
+}
+
+
+body{
+    font-family: 'iranyekan';
+    direction: rtl;
+    text-align: right;
+}
+.card > .card-body{
+    background-color:white;
+    box-shadow: 2px 2px 6px;
+    border-radius: 4px;
+}
+
+.product-card .off {
+    text-decoration: line-through;
+}
+
+.product-card img {
+    width: 100%;
+    max-height: 225px;
+}
+#card{
+    background-color: deeppink;
+    padding: 2px 6px;
+    border-radius: 5px;
+}
+#auth {
+    margin-right:auto;
+}
+.cart-count {
+    border: 1px solid #000;
+    margin: 0 3px;
+    padding-right: 8px;
+    padding-left: 3px;
+    border-radius: 50%;
+}
+.landing-shop-card {
+    text-align: center;
+    box-shadow: 2px 2px 8px gray;
+    padding: 15px;
+    margin: 25px 0;
+    border-radius: 5px;
+}
